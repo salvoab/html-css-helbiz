@@ -11,8 +11,8 @@ a{
   padding: 20px;
 }
 
-.mt-80{
-  margin-top: 80px;
+.mb-80{
+  margin-bottom: 80px;
 }
 /* END Utility */
 
@@ -127,9 +127,35 @@ nav{
   width: 100%;
 }
 
+.banner-image{
+  width: 100%;
+  height: 427px;
+  background-image: url("../img/index_banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 #how .card{
-  background-color: pink;
-  height: 100px;
+  text-align: left;
+}
+
+#how h2{
+  font-size: 2.2rem;
+}
+
+#how p{
+  padding: 10px 0;
+}
+
+#test{
+  position: relative;
+}
+.iphone{
+  height: 500px;
+  position: absolute;
+  bottom: -130px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 #mobility .card{
