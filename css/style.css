@@ -10,6 +10,10 @@ a{
 .p-20{
   padding: 20px;
 }
+
+.mt-80{
+  margin-top: 80px;
+}
 /* END Utility */
 
 /* Header section */
@@ -94,14 +98,33 @@ nav{
 
 /* Main section*/
 #site-main{
-  background-color: lightgrey;
-  height: 1200px;
+  background-color: white;
 }
 
+.card{
+  text-align: center;
+}
 
 #products .card{
-  background-color: purple;
-  height: 100px;
+  background-color: #fafafa;
+}
+
+.card-logo{
+  height: 30px;
+  margin-top: 50px;
+}
+
+#products p{
+  font-size: 1.5rem;
+  padding: 40px;
+}
+
+#products a{
+  font-size: 1.35rem;
+}
+
+.card-image{
+  width: 100%;
 }
 
 #how .card{
