@@ -67,6 +67,10 @@ nav{
   border-right: 1px solid black;
 }
 
+.menu-icon{
+  display: none;
+}
+
 .hero-image{
   background-image: url("../img/hero_image.jpeg");
   background-repeat: no-repeat;
@@ -273,3 +277,47 @@ h2{
   padding: 20px 10px 80px 10px;
 }
 /* END Footer section*/
+
+/* Media Query md */
+@media screen and (min-width: 769px) and (max-width: 1200px){
+  .header-logo img{
+    width: 70%;
+  }
+  .header-menu{
+    display: none;
+  }
+
+  .header-langs ul{
+    display: none;
+  }
+  .menu-icon{
+    display: block;
+  }
+
+  .hero-text img{
+    width: 40%;
+    padding: 0 10px;
+  }
+}
+
+/* Media Query sm */
+@media screen and (max-width: 768px){
+  .header-logo img{
+    width: 100%;
+  }
+  .header-menu{
+    display: none;
+  }
+
+  .header-langs ul{
+    display: none;
+  }
+  .menu-icon{
+    display: block;
+  }
+
+  .hero-text img{
+    width: 50%;
+    padding: 0 10px;
+  }
+}
