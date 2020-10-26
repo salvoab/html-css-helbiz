@@ -136,7 +136,7 @@ nav{
   width: 100%;
 }
 
-.banner-image{
+.banner-image, #family{
   width: 100%;
   height: 427px;
   background-image: url("../img/index_banner.jpg");
@@ -215,8 +215,18 @@ h2{
 
 #family{
   position: relative;
-  height: 200px;
-  background-color: darkgrey;
+}
+
+.helbiz-family{
+  background-color: white;
+  text-align: center;
+  padding: 50px;
+}
+.helbiz-family h2{
+  padding: 25px 0;
+}
+.helbiz-family li a{
+  font-size: 2.5rem;
 }
 
 /* END Main section*/
