@@ -10,6 +10,15 @@ a{
 .p-20{
   padding: 20px;
 }
+.py-50{
+  padding: 50px 0;
+}
+.pr-10{
+  padding-right: 10px;
+}
+.pl-10{
+  padding-left: 10px;
+}
 
 .mb-80{
   margin-bottom: 80px;
@@ -139,7 +148,7 @@ nav{
   text-align: left;
 }
 
-#how h2{
+h2{
   font-size: 2.2rem;
 }
 
@@ -147,9 +156,10 @@ nav{
   padding: 10px 0;
 }
 
-#test{
+#central-card{
   position: relative;
 }
+
 .iphone{
   height: 500px;
   position: absolute;
@@ -158,9 +168,49 @@ nav{
   transform: translateX(-50%);
 }
 
-#mobility .card{
-  background-color: yellow;
-  height: 100px;
+#mobility{
+  color: white;
+}
+
+#scooter-bg{
+  height: 500px;
+  background-image: url("../img/scooter.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+#mobility p{
+  font-size: 1.2rem;
+  padding: 20px 0;
+}
+#mobility a{
+  color: white;
+  font-size: 1.2rem;
+}
+#mobility h2{
+  padding: 50px 0;
+}
+
+#app{
+  background-color: #3c5063;
+  height: 500px;
+  position: relative;
+}
+
+#app img{
+  width: 30%;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#find{
+  height: 500px;
+  background-image: url("../img/city.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #family{
