@@ -1,0 +1,76 @@
+/* Utility */
+.p-20{
+  padding: 20px;
+}
+/* END Utility */
+
+/* Header section */
+#site-header{
+  height: 500px;
+  background-color: red;
+  position: relative;
+}
+
+.header-logo{
+  background-color: yellow;
+}
+
+.header-menu{
+  background-color: purple;
+}
+
+.header-langs{
+  background-color: white;
+}
+
+.hero-text, .helbiz-family{
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* END Header section*/
+
+/* Main section*/
+#site-main{
+  background-color: lightgrey;
+  height: 1200px;
+}
+
+
+#products .card{
+  background-color: purple;
+  height: 100px;
+}
+
+#how .card{
+  background-color: pink;
+  height: 100px;
+}
+
+#mobility .card{
+  background-color: yellow;
+  height: 100px;
+}
+
+#family{
+  position: relative;
+  height: 200px;
+  background-color: darkgrey;
+}
+
+/* END Main section*/
+
+/* Footer section*/
+#site-footer{
+  background-color: black;
+  height: 500px;
+}
+
+#site-footer .card{
+  background-color: white;
+  height: 100px;
+}
+
+/* END Footer section*/
