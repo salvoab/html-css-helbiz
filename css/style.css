@@ -19,6 +19,9 @@ a{
 .pl-10{
   padding-left: 10px;
 }
+.pt-50{
+  padding-top: 50px;
+}
 
 .mb-80{
   margin-bottom: 80px;
@@ -234,12 +237,39 @@ h2{
 /* Footer section*/
 #site-footer{
   background-color: black;
-  height: 500px;
+  color: white;
 }
 
-#site-footer .card{
-  background-color: white;
-  height: 100px;
+#site-footer img{
+  width: 40%;
 }
 
+.footer-menu h4{
+  margin-bottom: 30px;
+}
+.footer-menu ul li{
+  list-style: none;
+  padding: 10px 0;
+}
+.footer-menu a{
+  color: #808080;
+}
+
+.border-tb{
+  border-top: 1px inset #808080;
+  border-bottom: 1px inset #808080;
+}
+
+.footer-middle{
+  padding: 20px 0;
+}
+.footer-middle li a{
+  color: white;
+  font-size: 1.5rem;
+}
+
+#site-footer .card a img{
+  width: 15%;
+  padding: 20px 10px 80px 10px;
+}
 /* END Footer section*/
