@@ -320,4 +320,12 @@ h2{
     width: 50%;
     padding: 0 10px;
   }
+
+  .iphone {
+    height: 300px;
+    position: absolute;
+    bottom: 84px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
