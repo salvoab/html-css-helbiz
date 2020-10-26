@@ -328,4 +328,10 @@ h2{
     left: 50%;
     transform: translateX(-50%);
   }
+
+  .card-text{ /* Non capisco perché io debba fare questo spostamento*/
+    position: relative;
+    right: 58%;
+    top: 100px;
+  }
 }
