@@ -280,6 +280,10 @@ h2{
 
 /* Media Query md */
 @media screen and (min-width: 769px) and (max-width: 1200px){
+  .display-lg{
+    display: none;
+  }
+
   .header-logo img{
     width: 70%;
   }
@@ -302,6 +306,10 @@ h2{
 
 /* Media Query sm */
 @media screen and (max-width: 768px){
+  .display-lg{
+    display: none;
+  }
+
   .header-logo img{
     width: 100%;
   }
