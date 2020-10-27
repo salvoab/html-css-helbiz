@@ -198,6 +198,14 @@ h2{
 #mobility h2{
   padding: 50px 0;
 }
+#mobility .card{
+  position: relative;
+}
+#mobility .card .card-text{
+  position: absolute;
+  top: 40px;
+  right: 25px;
+}
 
 #app{
   background-color: #3c5063;
@@ -337,9 +345,9 @@ h2{
     transform: translateX(-50%);
   }
 
-  .card-text{ /* Non capisco perché io debba fare questo spostamento*/
-    position: relative;
-    right: 58%;
-    top: 100px;
+  #mobility .card .card-text{
+    position: absolute;
+    top: 50%;
+    right: 10%;
   }
 }
